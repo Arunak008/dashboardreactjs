@@ -1,0 +1,15 @@
+.full-width-line {
+    width: 100%; /* This will make the line take up the full width of its parent element */
+    height: 2px; /* Adjust as needed */
+    background-color: rgb(100, 231, 13); /* Adjust as needed */
+  }
+  .sidebar-menu {
+    z-index: 1; /* This will place the sidebar menu behind the blue line */
+    /* Other CSS properties */
+  }
+  
+  .full-width-line {
+    z-index: 2; /* This will place the blue line in front of the sidebar menu */
+    /* Other CSS properties */
+  }
+  
